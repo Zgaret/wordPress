@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .center {
   padding: 0 calc(50% - 570px);
 }
@@ -54,12 +58,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 21px;
   margin-bottom: 21px;
 }
 
 .promo__line {
-  width: 270px;
+  width: 292px;
   height: 2px;
   background-color: #fff;
 }
@@ -146,13 +149,14 @@
   min-height: 604px;
 }
 
-.waiting__heading {
+.waiting__heading, .finish__heading, .time__heading {
   font-size: 30px;
   color: #252525;
   text-transform: uppercase;
+  font-weight: normal;
 }
 
-.waiting__line {
+.waiting__line, .finish__line {
   width: 217px;
   height: 4px;
   background-color: #f9bf3b;
@@ -162,6 +166,7 @@
 .waiting__sub-heading {
   font-size: 23px;
   color: #4a4a4a;
+  font-weight: normal;
 }
 
 .waiting__wrap {
@@ -191,9 +196,10 @@
 .optim {
   min-height: 550px;
   padding-top: 102px;
+  padding-bottom: 107px;
   background-image: url(../img/girl.png);
   background-repeat: no-repeat;
-  background-position: 0 48px;
+  background-position: 0 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -206,7 +212,7 @@
   width: 750px;
 }
 
-.optim__heading {
+.optim__heading, .time__date-webinar {
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 900;
@@ -219,5 +225,168 @@
   line-height: 1.59;
   color: #4a4a4a;
   margin-top: 15px;
+}
+
+.optim__text_bold {
+  font-weight: bold;
+}
+
+.finish {
+  min-height: 447px;
+  background-image: url(../img/youCan_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 86px;
+  padding-bottom: 79px;
+}
+
+.finish__heading {
+  color: #efefef;
+}
+
+.finish__steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  margin-top: 41px;
+}
+
+.finish__steps-item {
+  -ms-flex-preferred-size: 204px;
+      flex-basis: 204px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.finish__steps-icon-wrap {
+  background-color: #b4e2ff;
+  width: 115px;
+  height: 115px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+
+.finish__steps-descr {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.18;
+  color: #efefef;
+  margin-top: 26px;
+}
+
+.gift {
+  min-height: 628px;
+  background-color: #efefef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 86px 0;
+}
+
+.gift__text {
+  width: 1131px;
+  font-size: 30px;
+  line-height: 1.43;
+  color: #252525;
+  text-align: center;
+  margin-top: 42px;
+  margin-bottom: 52px;
+}
+
+.time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 82px;
+  padding-bottom: 64px;
+}
+
+.time__heading {
+  margin-top: 25px;
+}
+
+.time__date-webinar {
+  margin-top: 15px;
+}
+
+.time__utp {
+  font-size: 23px;
+  color: #4a4a4a;
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+.footer {
+  height: 166px;
+  background-color: #1a1a1a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__link {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #888;
+}
+
+.footer__link:first-child::after {
+  content: '|';
+  padding-left: 5px;
 }
 /*# sourceMappingURL=style.css.map */
