@@ -4,4 +4,128 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.center {
+  padding: 0 calc(50% - 570px);
+}
+
+.promo {
+  height: 800px;
+  background: url("../img/header_bg.jpg") center center/cover no-repeat;
+  padding-top: 39px;
+  padding-bottom: 62px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.promo__title {
+  font-size: 41px;
+  font-weight: 900;
+  color: #f9bf3b;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+
+.promo__title_top {
+  margin-top: 53px;
+}
+
+.promo__title_big {
+  font-size: 80px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0 18px;
+  line-height: 60px;
+}
+
+.promo__its-easy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 21px;
+  margin-bottom: 21px;
+}
+
+.promo__line {
+  width: 270px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.promo__text {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.33;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.promo__text_free {
+  font-weight: bold;
+  color: #f9bf3b;
+  text-transform: uppercase;
+}
+
+.promo__button {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.promo__text-small {
+  font-size: 15px;
+  font-weight: 100;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 13px;
+}
+
+.button {
+  width: 313px;
+  height: 72px;
+  -webkit-box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.18);
+          box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.18);
+  border: solid 4px rgba(0, 0, 0, 0.23);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#2798b9), to(#3ab6da));
+  background-image: linear-gradient(to top, #2798b9, #3ab6da);
+  text-decoration: none;
+  color: #fff;
+  font-size: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+}
+
+.logo__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.logo__text {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  margin-top: 14px;
+}
 /*# sourceMappingURL=style.css.map */
