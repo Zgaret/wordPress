@@ -187,4 +187,37 @@
   margin-top: 33px;
   text-align: center;
 }
+
+.optim {
+  min-height: 550px;
+  padding-top: 102px;
+  background-image: url(../img/girl.png);
+  background-repeat: no-repeat;
+  background-position: 0 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.optim__wrap {
+  width: 750px;
+}
+
+.optim__heading {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 900;
+  color: #299cbd;
+}
+
+.optim__text {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.59;
+  color: #4a4a4a;
+  margin-top: 15px;
+}
 /*# sourceMappingURL=style.css.map */
